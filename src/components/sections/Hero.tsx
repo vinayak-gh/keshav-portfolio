@@ -48,6 +48,7 @@ export default function Hero() {
       <div className="hidden sm:block">
         <HeroCanvas />
       </div>
+      {/* Subtle ambient gradient - always visible as backdrop, mobile-only background */}
       <HeroFallback />
 
       {/* Gradient overlays */}
@@ -118,7 +119,7 @@ export default function Hero() {
           <NeonButton variant="secondary" onClick={() => scrollTo("#contact")}>
             Contact Me
           </NeonButton>
-          <NeonButton variant="outline" href="https://toolisky.com" >
+          <NeonButton variant="outline" href="https://toolisky.com">
             Toolisky.com ↗
           </NeonButton>
         </motion.div>

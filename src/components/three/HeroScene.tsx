@@ -74,7 +74,7 @@ export default function HeroScene() {
         autoRotate
         autoRotateSpeed={0.5}
         minPolarAngle={Math.PI / 3}
-        maxPolarAngle={Math.PI * 2 / 3}
+        maxPolarAngle={(Math.PI * 2) / 3}
       />
     </>
   );
