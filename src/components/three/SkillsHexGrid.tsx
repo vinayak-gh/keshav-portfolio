@@ -58,7 +58,6 @@ function HexNode({ label, position, color, delay = 0 }: HexNodeProps) {
         color={hovered ? "#ffffff" : color}
         anchorX="center"
         anchorY="middle"
-        font={undefined}
       >
         {label}
       </Text>

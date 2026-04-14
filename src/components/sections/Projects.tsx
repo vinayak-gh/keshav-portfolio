@@ -21,7 +21,7 @@ const glowMap: Record<string, "cyan" | "purple" | "blue" | "green"> = {
 };
 
 export default function Projects() {
-  const [selected, setSelected] = useState<string | null>("toolisky");
+  const [selected, setSelected] = useState<string | null>(resumeData.projects[0]?.id ?? null);
 
   const selectedProject = resumeData.projects.find((p) => p.id === selected);
 
